@@ -1,0 +1,192 @@
+time,logger,level,message,exception
+2011-09-22 09:12:31.0549,Raven.Database.Impl.DocumentCacher,Info,"MemoryCache Settings:
+  PhysicalMemoryLimit = 99
+  CacheMemoryLimit    = 3148873728
+  PollingInterval     = 00:02:00",
+2011-09-22 09:12:31.0849,Raven.Storage.Esent.TransactionalStorage,Info,"Esent Settings:
+  MaxVerPages      = 32768
+  CacheSizeMax     = 262144
+  DatabasePageSize = 4096",
+2011-09-22 09:12:32.5289,Raven.Database.DocumentDatabase,Debug,Delete a document with key: Raven/Backup/Status and etag ,
+2011-09-22 09:12:32.5289,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Document with key 'Raven/Backup/Status' was not found, and considered deleted",
+2011-09-22 09:12:51.3720,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'Raven/Replication/Destinations' was not found,
+2011-09-22 09:12:51.3720,Raven.Http.HttpServer,Debug,Request #   1: GET     -    29 ms - <default>  - 404 - /docs/Raven/Replication/Destinations,
+2011-09-22 09:12:51.4140,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'Raven/Hilo/newordertrackings' was not found,
+2011-09-22 09:12:51.4140,Raven.Http.HttpServer,Debug,Request #   2: GET     -     0 ms - <default>  - 404 - /docs/Raven/Hilo/newordertrackings,
+2011-09-22 09:12:51.5570,Raven.Database.DocumentDatabase,Debug,Putting a document with key: Raven/Hilo/newordertrackings and etag 00000000-0000-0000-0000-000000000000,
+2011-09-22 09:12:51.6050,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Inserted a new document with key 'Raven/Hilo/newordertrackings', update: False, ",
+2011-09-22 09:12:51.7771,Raven.Http.HttpServer,Debug,Request #   3: PUT     -   273 ms - <default>  - 201 - /docs/Raven/Hilo/newordertrackings,
+2011-09-22 09:12:51.8661,Raven.Database.DocumentDatabase,Debug,Executing batched commands in a single transaction,
+2011-09-22 09:12:51.8691,Raven.Database.DocumentDatabase,Debug,Putting a document with key: newordertrackings/1 and etag ,
+2011-09-22 09:12:51.8691,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Inserted a new document with key 'newordertrackings/1', update: False, ",
+2011-09-22 09:12:51.8691,Raven.Database.DocumentDatabase,Debug,Successfully executed 1 commands,
+2011-09-22 09:12:51.8961,Raven.Http.HttpServer,Debug,Request #   4: POST    -    50 ms - <default>  - 200 - /bulk_docs,
+2011-09-22 09:12:51.8961,Raven.Http.HttpServer,Debug,"	PUT newordertrackings/1
+",
+2011-09-22 09:13:04.4018,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'Raven/Hilo/newordertrackings' was found,
+2011-09-22 09:13:04.4498,Raven.Http.HttpServer,Debug,Request #   5: GET     -    48 ms - <default>  - 200 - /docs/Raven/Hilo/newordertrackings,
+2011-09-22 09:13:04.4498,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'Raven/Replication/Destinations' was not found,
+2011-09-22 09:13:04.4498,Raven.Http.HttpServer,Debug,Request #   6: GET     -     0 ms - <default>  - 404 - /docs/Raven/Replication/Destinations,
+2011-09-22 09:13:04.4818,Raven.Database.DocumentDatabase,Debug,Putting a document with key: Raven/Hilo/newordertrackings and etag 00000000-0000-0100-0000-000000000001,
+2011-09-22 09:13:04.4818,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Inserted a new document with key 'Raven/Hilo/newordertrackings', update: True, ",
+2011-09-22 09:13:04.4818,Raven.Http.HttpServer,Debug,Request #   7: PUT     -     3 ms - <default>  - 201 - /docs/Raven/Hilo/newordertrackings,
+2011-09-22 09:13:04.5958,Raven.Database.DocumentDatabase,Debug,Executing batched commands in a single transaction,
+2011-09-22 09:13:04.5958,Raven.Database.DocumentDatabase,Debug,Putting a document with key: newordertrackings/1025 and etag ,
+2011-09-22 09:13:04.5958,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Inserted a new document with key 'newordertrackings/1025', update: False, ",
+2011-09-22 09:13:04.5958,Raven.Database.DocumentDatabase,Debug,Successfully executed 1 commands,
+2011-09-22 09:13:04.5958,Raven.Http.HttpServer,Debug,Request #   8: POST    -     1 ms - <default>  - 200 - /bulk_docs,
+2011-09-22 09:13:04.5958,Raven.Http.HttpServer,Debug,"	PUT newordertrackings/1025
+",
+2011-09-22 09:13:08.0850,Raven.Database.DocumentDatabase,Debug,Executing batched commands in a single transaction,
+2011-09-22 09:13:08.0850,Raven.Database.DocumentDatabase,Debug,Putting a document with key: newordertrackings/1026 and etag ,
+2011-09-22 09:13:08.0850,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Inserted a new document with key 'newordertrackings/1026', update: False, ",
+2011-09-22 09:13:08.0850,Raven.Database.DocumentDatabase,Debug,Successfully executed 1 commands,
+2011-09-22 09:13:08.0850,Raven.Http.HttpServer,Debug,Request #   9: POST    -     1 ms - <default>  - 200 - /bulk_docs,
+2011-09-22 09:13:08.0850,Raven.Http.HttpServer,Debug,"	PUT newordertrackings/1026
+",
+2011-09-22 09:13:10.4931,Raven.Database.DocumentDatabase,Debug,Executing batched commands in a single transaction,
+2011-09-22 09:13:10.4931,Raven.Database.DocumentDatabase,Debug,Putting a document with key: newordertrackings/1027 and etag ,
+2011-09-22 09:13:10.4931,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Inserted a new document with key 'newordertrackings/1027', update: False, ",
+2011-09-22 09:13:10.4951,Raven.Database.DocumentDatabase,Debug,Successfully executed 1 commands,
+2011-09-22 09:13:10.4951,Raven.Http.HttpServer,Debug,Request #  10: POST    -     2 ms - <default>  - 200 - /bulk_docs,
+2011-09-22 09:13:10.5271,Raven.Http.HttpServer,Debug,"	PUT newordertrackings/1027
+",
+2011-09-22 09:13:13.6673,Raven.Database.DocumentDatabase,Debug,Executing batched commands in a single transaction,
+2011-09-22 09:13:13.6673,Raven.Database.DocumentDatabase,Debug,Putting a document with key: newordertrackings/1028 and etag ,
+2011-09-22 09:13:13.6673,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Inserted a new document with key 'newordertrackings/1028', update: False, ",
+2011-09-22 09:13:13.6673,Raven.Database.DocumentDatabase,Debug,Successfully executed 1 commands,
+2011-09-22 09:13:13.6673,Raven.Http.HttpServer,Debug,Request #  11: POST    -     1 ms - <default>  - 200 - /bulk_docs,
+2011-09-22 09:13:13.6673,Raven.Http.HttpServer,Debug,"	PUT newordertrackings/1028
+",
+2011-09-22 09:13:19.1456,Raven.Database.Storage.IndexDefinitionStorage,Info,"New index Raven%2fDocumentsByEntityName:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using Raven.Database.Indexing;
+public class Index_Raven_2fDocumentsByEntityName : AbstractViewGenerator
+{
+	public Index_Raven_2fDocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+let Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""]
+where  Tag != null 
+select new { Tag, LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""] };
+"";
+		this.ForEntityNames.Add(null);
+		this.AddMapDefinition(docs => from doc in docs
+			let Tag = doc[""@metadata""][""Raven-Entity-Name""]
+			where Tag != null
+			select new { Tag, LastModified = (DateTime)doc[""@metadata""][""Last-Modified""], __document_id = doc.__document_id });
+		this.AddField(""LastModified"");
+		this.AddField(""__document_id"");
+		this.AddField(""Tag"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+
+Compiled to:
+using Raven.Abstractions;
+using Raven.Database.Linq;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using Raven.Database.Linq.PrivateExtensions;
+using Lucene.Net.Documents;
+using Raven.Database.Indexing;
+public class Index_Raven_2fDocumentsByEntityName : AbstractViewGenerator
+{
+	public Index_Raven_2fDocumentsByEntityName()
+	{
+		this.ViewText = @""from doc in docs 
+let Tag = doc[""""@metadata""""][""""Raven-Entity-Name""""]
+where  Tag != null 
+select new { Tag, LastModified = (DateTime)doc[""""@metadata""""][""""Last-Modified""""] };
+"";
+		this.ForEntityNames.Add(null);
+		this.AddMapDefinition(docs => from doc in docs
+			let Tag = doc[""@metadata""][""Raven-Entity-Name""]
+			where Tag != null
+			select new { Tag, LastModified = (DateTime)doc[""@metadata""][""Last-Modified""], __document_id = doc.__document_id });
+		this.AddField(""LastModified"");
+		this.AddField(""__document_id"");
+		this.AddField(""Tag"");
+		this.AddQueryParameterForMap(""__document_id"");
+		this.AddQueryParameterForReduce(""__document_id"");
+	}
+}
+",
+2011-09-22 09:13:19.2046,Raven.Database.Indexing.IndexStorage,Info,Creating index Raven/DocumentsByEntityName with encoded name Raven/DocumentsByEntityName,
+2011-09-22 09:13:19.3776,Raven.Database.Indexing.Index.Indexing,Debug,Creating index for Raven/DocumentsByEntityName,
+2011-09-22 09:13:19.4556,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,Indexing 6 documents for index: Raven/DocumentsByEntityName,
+2011-09-22 09:13:19.7246,Raven.Database.Indexing.Index.Indexing,Debug,"Index 'Raven/DocumentsByEntityName' resulted in: Document<stored/uncompressed,indexed,tokenized,omitNorms<__document_id:newordertrackings/1> indexed,omitNorms<Tag:NewOrderTrackings> indexed,omitNorms<LastModified:20110922061251870>>",
+2011-09-22 09:13:19.8377,Raven.Database.Indexing.Index.Indexing,Debug,"Index 'Raven/DocumentsByEntityName' resulted in: Document<stored/uncompressed,indexed,tokenized,omitNorms<__document_id:newordertrackings/1025> indexed,omitNorms<Tag:NewOrderTrackings> indexed,omitNorms<LastModified:20110922061304595>>",
+2011-09-22 09:13:19.8417,Raven.Database.Indexing.Index.Indexing,Debug,"Index 'Raven/DocumentsByEntityName' resulted in: Document<stored/uncompressed,indexed,tokenized,omitNorms<__document_id:newordertrackings/1026> indexed,omitNorms<Tag:NewOrderTrackings> indexed,omitNorms<LastModified:20110922061308085>>",
+2011-09-22 09:13:19.8417,Raven.Database.Indexing.Index.Indexing,Debug,"Index 'Raven/DocumentsByEntityName' resulted in: Document<stored/uncompressed,indexed,tokenized,omitNorms<__document_id:newordertrackings/1027> indexed,omitNorms<Tag:NewOrderTrackings> indexed,omitNorms<LastModified:20110922061310494>>",
+2011-09-22 09:13:19.8417,Raven.Database.Indexing.Index.Indexing,Debug,"Index 'Raven/DocumentsByEntityName' resulted in: Document<stored/uncompressed,indexed,tokenized,omitNorms<__document_id:newordertrackings/1028> indexed,omitNorms<Tag:NewOrderTrackings> indexed,omitNorms<LastModified:20110922061313668>>",
+2011-09-22 09:13:20.0597,Raven.Database.Indexing.Index.Indexing,Debug,Indexed 5 documents for Raven/DocumentsByEntityName,
+2011-09-22 09:13:20.2207,Raven.Http.HttpServer,Debug,Request #  12: GET     -     9 ms - <default>  - 200 - /silverlight/plugins?noCache=-475947440,
+2011-09-22 09:13:20.5627,Raven.Http.HttpServer,Debug,Request #  13: GET     -     7 ms - <default>  - 200 - /databases/?noCache=-719670916,
+2011-09-22 09:13:20.6057,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'Raven/WarningMessages' was not found,
+2011-09-22 09:13:20.6057,Raven.Http.HttpServer,Debug,Request #  14: GET     -     2 ms - <default>  - 404 - /docs/Raven/WarningMessages,
+2011-09-22 09:13:20.7377,Raven.Http.HttpServer,Debug,Request #  15: GET     -    35 ms - <default>  - 200 - /stats?noCache=1358789690,
+2011-09-22 09:13:20.7947,Raven.Http.HttpServer,Debug,Request #  16: GET     -    14 ms - <default>  - 200 - /terms/Raven/DocumentsByEntityName?field=Tag&fromValue=&pageSize=128&noCache=1269502104,
+2011-09-22 09:13:20.8527,Raven.Http.HttpServer,Debug,Request #  17: GET     -     8 ms - <default>  - 200 - /docs/?start=0&pageSize=12&noCache=-306336299,
+2011-09-22 09:13:21.0627,Raven.Database.Indexing.Index.Querying,Debug,Issuing query on index Raven/DocumentsByEntityName for: Tag:NewOrderTrackings,
+2011-09-22 09:13:21.1717,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1' was found,
+2011-09-22 09:13:21.1717,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1025' was found,
+2011-09-22 09:13:21.1717,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1026' was found,
+2011-09-22 09:13:21.1717,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1027' was found,
+2011-09-22 09:13:21.1717,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1028' was found,
+2011-09-22 09:13:21.1837,Raven.Http.HttpServer,Debug,Request #  18: GET     -   175 ms - <default>  - 0 - /indexes/Raven/DocumentsByEntityName?query=Tag%253ANewOrderTrackings&start=0&pageSize=0&aggregation=None,
+2011-09-22 09:13:21.1837,Raven.Http.HttpServer,Debug,Request #  19: POST    -   263 ms - <default>  - 200 - /multi_get/,
+2011-09-22 09:13:21.1967,Raven.Http.HttpServer,Debug,Request #  20: GET     -     5 ms - <default>  - 200 - /silverlight/ensureStartup?noCache=-1027484864,
+2011-09-22 09:13:21.1967,Raven.Http.HttpServer,Debug,Request #  22: GET     -     0 ms - <default>  - 200 - /docs/?start=0&pageSize=12&noCache=1683182404,
+2011-09-22 09:13:21.1967,Raven.Http.HttpServer,Debug,Request #  21: GET     -     0 ms - <default>  - 200 - /terms/Raven/DocumentsByEntityName?field=Tag&fromValue=&pageSize=128&noCache=1354357967,
+2011-09-22 09:13:21.2977,Raven.Http.HttpServer,Debug,Request #  23: GET     -     6 ms - <default>  - 404 - /static/newordertrackingsTemplate,
+2011-09-22 09:13:21.2977,Raven.Http.HttpServer,Debug,Request #  24: GET     -     0 ms - <default>  - 404 - /static/SystemTemplate,
+2011-09-22 09:13:21.3727,Raven.Http.HttpServer,Debug,Request #  25: GET     -     3 ms - <default>  - 200 - /build/version,
+2011-09-22 09:13:21.4277,Raven.Database.Indexing.Index.Querying,Debug,Issuing query on index Raven/DocumentsByEntityName for: Tag:NewOrderTrackings,
+2011-09-22 09:13:21.4277,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1' was found,
+2011-09-22 09:13:21.4277,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1025' was found,
+2011-09-22 09:13:21.4307,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1026' was found,
+2011-09-22 09:13:21.4307,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1027' was found,
+2011-09-22 09:13:21.4307,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1028' was found,
+2011-09-22 09:13:21.4307,Raven.Http.HttpServer,Debug,Request #  26: GET     -     4 ms - <default>  - 0 - /indexes/Raven/DocumentsByEntityName?query=Tag%253ANewOrderTrackings&start=0&pageSize=0&aggregation=None,
+2011-09-22 09:13:21.4307,Raven.Http.HttpServer,Debug,Request #  27: POST    -     6 ms - <default>  - 200 - /multi_get/,
+2011-09-22 09:13:25.1500,Raven.Http.HttpServer,Debug,Request #  28: GET     -     0 ms - <default>  - 200 - /docs/?start=0&pageSize=15&startsWith=newordertrackings/1/&noCache=455818016,
+2011-09-22 09:13:30.8593,Raven.Http.HttpServer,Debug,Request #  29: GET     -     4 ms - <default>  - 200 - /terms/Raven/DocumentsByEntityName?field=Tag&fromValue=&pageSize=128&noCache=-1178780887,
+2011-09-22 09:13:30.8593,Raven.Http.HttpServer,Debug,Request #  30: GET     -     1 ms - <default>  - 200 - /docs/?start=0&pageSize=12&noCache=342864653,
+2011-09-22 09:13:30.9783,Raven.Database.Indexing.Index.Querying,Debug,Issuing query on index Raven/DocumentsByEntityName for: Tag:NewOrderTrackings,
+2011-09-22 09:13:30.9783,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1' was found,
+2011-09-22 09:13:30.9783,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1025' was found,
+2011-09-22 09:13:30.9783,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1026' was found,
+2011-09-22 09:13:30.9783,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1027' was found,
+2011-09-22 09:13:30.9783,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1028' was found,
+2011-09-22 09:13:30.9783,Raven.Http.HttpServer,Debug,Request #  31: GET     -     7 ms - <default>  - 0 - /indexes/Raven/DocumentsByEntityName?query=Tag%253ANewOrderTrackings&start=0&pageSize=0&aggregation=None,
+2011-09-22 09:13:30.9783,Raven.Http.HttpServer,Debug,Request #  32: POST    -    10 ms - <default>  - 200 - /multi_get/,
+2011-09-22 09:13:32.4154,Raven.Http.HttpServer,Debug,Request #  33: GET     -     1 ms - <default>  - 200 - /docs/?start=0&pageSize=15&startsWith=newordertrackings/1027/&noCache=-441130098,
+2011-09-22 09:13:38.0267,Raven.Http.HttpServer,Debug,Request #  34: GET     -     3 ms - <default>  - 200 - /docs/?start=0&pageSize=12&noCache=742103514,
+2011-09-22 09:13:38.0267,Raven.Http.HttpServer,Debug,Request #  35: GET     -     0 ms - <default>  - 200 - /terms/Raven/DocumentsByEntityName?field=Tag&fromValue=&pageSize=128&noCache=-98062576,
+2011-09-22 09:13:38.0917,Raven.Database.Indexing.Index.Querying,Debug,Issuing query on index Raven/DocumentsByEntityName for: Tag:NewOrderTrackings,
+2011-09-22 09:13:38.0917,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1' was found,
+2011-09-22 09:13:38.0917,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1025' was found,
+2011-09-22 09:13:38.0917,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1026' was found,
+2011-09-22 09:13:38.0917,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1027' was found,
+2011-09-22 09:13:38.0917,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,Document with key 'newordertrackings/1028' was found,
+2011-09-22 09:13:38.0917,Raven.Http.HttpServer,Debug,Request #  36: GET     -     2 ms - <default>  - 0 - /indexes/Raven/DocumentsByEntityName?query=Tag%253ANewOrderTrackings&start=0&pageSize=0&aggregation=None,
+2011-09-22 09:13:38.0917,Raven.Http.HttpServer,Debug,Request #  37: POST    -     3 ms - <default>  - 200 - /multi_get/,
+2011-09-22 09:15:47.0511,Raven.Http.HttpServer,Debug,Request #  38: GET     -     0 ms - <default>  - 200 - /docs/?start=0&pageSize=15&startsWith=newordertrackings/1027/&noCache=-944011313,
+2011-09-22 09:16:20.0210,Raven.Database.DocumentDatabase,Debug,Putting a document with key: newordertrackings/1027 and etag 00000000-0000-0100-0000-000000000006,
+2011-09-22 09:16:20.0210,Raven.Storage.Esent.StorageActions.DocumentStorageActions,Debug,"Inserted a new document with key 'newordertrackings/1027', update: True, ",
+2011-09-22 09:16:20.0210,Raven.Http.HttpServer,Debug,Request #  39: PUT     -     2 ms - <default>  - 201 - /docs/newordertrackings/1027,
+2011-09-22 09:16:20.0210,Raven.Database.Indexing.AbstractIndexingExecuter,Debug,Indexing 1 documents for index: Raven/DocumentsByEntityName,
+2011-09-22 09:16:20.0210,Raven.Database.Indexing.Index.Indexing,Debug,"Index 'Raven/DocumentsByEntityName' resulted in: Document<stored/uncompressed,indexed,tokenized,omitNorms<__document_id:newordertrackings/1027> indexed,omitNorms<Tag:NewOrderTrackings> indexed,omitNorms<LastModified:20110922061620021>>",
+2011-09-22 09:16:20.0410,Raven.Database.Indexing.Index.Indexing,Debug,Indexed 1 documents for Raven/DocumentsByEntityName,
+2011-09-22 10:07:33.8078,Raven.Http.HttpServer,Debug,Request #  40: GET     -    78 ms - <default>  - 200 - /stats?noCache=-846026572,
